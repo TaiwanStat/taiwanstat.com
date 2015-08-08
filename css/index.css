@@ -6,12 +6,13 @@
   margin-right: auto;
 }
 .demo-card-wide.mdl-card {
-  width: 80%;
+  width: 95%;
   margin-right: auto;
   margin-left: auto;
   margin-top: 30px;
   margin-bottom: 30px;
 }
+
 .demo-card-wide > .mdl-card__title {
   color: #fff;
   height: 400px;

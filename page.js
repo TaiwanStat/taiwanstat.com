@@ -45,7 +45,7 @@ var sites = {
       "title": "開放資料分析部落格",
       "desc": "利用資料做更深入的探討與分析報導，帶給大家最齊全的數據分析圖表與解析。",
       "cover": "/assets/images/cover.png",
-      "url": "http://taiwanstat.com/opendata/"
+      "url": "http://taiwanstat.com/"
     }
   ]
 }
