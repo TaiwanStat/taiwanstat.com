@@ -1,0 +1,26 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+#round-logo {
+  margin-right: 20px;
+  width: 30px;
+}
+
+#main-content {
+  padding: 20px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+/** customize mdl **/
+.mdl-layout__header {
+  background-color: #029B6C !important;
+}
+.mdl-mini-footer {
+  padding: 20px 16px !important;
+}

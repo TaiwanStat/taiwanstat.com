@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  {{> head}}
+  <body itemscope itemtype="http://schema.org/Article">
+    {{> header}}
+    <main class="content" role="main">
+      <article class="post">
+        {{#if cover}}
+        <div class="article-image">
+          <div class="post-image-image" style="background-image: url({{#if cover}}{{ cover }}{{/if}})">
+            Article Image
+          </div>
+          <div class="post-meta">
+            <h1 class="post-title">{{ title }}</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ site.author }}</h4>
+              on
+              <time datetime="{{ date }}">{{ date }}</time>
+            </div>
+            <div style="text-align:center">
+              <a href="#topofpage" class="topofpage"><i class="fa fa-angle-down"></i></a>
+            </div>
+          </div>
+        </div>
+        {{else}}
+        <div class="noarticleimage">
+          <div class="post-meta">
+            <h1 class="post-title">{{ title }}</h1>
+            <div class="cf post-meta-text">
+              <div class="author-image" style="background-image: url({{ site.author_image }})">Blog Logo</div>
+              <h4 class="author-name" itemprop="author" itemscope itemtype="http://schema.org/Person">{{ author }}</h4>
+              on
+              <time datetime="{{ date }}">{{ date }}</time>
+            </div>
+          </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        {{/if}}
+        <section class="post-content">
+          <div class="post-reading">
+            <span class="post-reading-time"></span> read
+          </div>
+          <a name="topofpage"></a>
+          <div data-markdown="{{content}}"></div>
+        </section>
+        <div class="bottom-teaser cf">
+          <div class="isLeft">
+            <h5 class="index-headline featured"><span>撰寫自</span></h5>
+            <section class="author">
+              <div class="author-image" style="background-image: url({{site.author_image}})">Blog Logo</div>
+              <h4>{{ site.author }}</h4>
+              <hr>
+              <p class="published">發佈於 <time datetime="{{ date }}">{{ date }}</time></p>
+            </section>
+          </div>
+          <div class="isRight">
+            <h5 class="index-headline featured"><span>訂閱</span></h5>
+            <footer class="site-footer">
+              <section class="copyright">內容版權所有 <a href="{{@blog.url}}/">{{site.author}}</a> &copy; 2015<br>，翻印必究。</section>
+            </footer>
+          </div>
+        </div>
+      </article>
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES * * */
+          var disqus_shortname = 'taiwanstat';
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+    </main>
+
+    <div class="bottom-closer">
+      <div class="background-closer-image" {{#if site.cover }} style="background-image: url({{ site.cover }})"{{/if}}>
+        圖片
+      </div>
+      <div class="inner">
+        <h1 class="blog-title">{{ site.title }}</h1>
+        <h2 class="blog-description">{{ site.description }}</h2>
+        <a href="/" class="btn">回到主畫面</a>
+      </div>
+    </div>
+    {{> javascripts}}
+  </body>
+</html>
