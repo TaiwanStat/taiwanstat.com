@@ -18,13 +18,13 @@
     }
   },
   "posts": [{
-    "title": "用數據看台灣 官網正式上線。",
-    "date": "2015/04/02 22:33:12",
-    "categories": ["Facebook"],
-    "tags": ["milestone"],
-    "cover": "/assets/images/taiwanstat_cover.png",
-    "content": "./posts/2015-04-02-10000.md",
-    "url_name": "10000",
+    "title": "如何評估電力可靠度？解釋電力名詞與缺電現狀",
+    "date": "2015/04/29 19:33:12",
+    "categories": ["electricity"],
+    "tags": ["power"],
+    "cover": "/assets/article_images/2015-04-29/power.png",
+    "content": "./posts/2015-04-29-description.md",
+    "url_name": "electricity-desc",
     "author": "taiwanstat"
   }, {
     "title": "為什麼九蛙疊像已經全露，日月潭水庫卻仍然維持著看似較高的有效蓄水量呢？",
@@ -35,14 +35,14 @@
     "content": "./posts/2015-04-02-Zintun-reservoir.md",
     "url_name": "Zintun-reservoir",
     "author": "taiwanstat"
-  },{
-    "title": "如何評估電力可靠度？解釋電力名詞與缺電現狀",
-    "date": "2015/04/29 19:33:12",
-    "categories": ["electricity"],
-    "tags": ["power"],
-    "cover": "/assets/article_images/2015-04-29/power.png",
-    "content": "./posts/2015-04-29-description.md",
-    "url_name": "electricity-desc",
+  }, {
+    "title": "用數據看台灣 官網正式上線。",
+    "date": "2015/04/02 22:33:12",
+    "categories": ["Facebook"],
+    "tags": ["milestone"],
+    "cover": "/assets/images/taiwanstat_cover.png",
+    "content": "./posts/2015-04-02-10000.md",
+    "url_name": "10000",
     "author": "taiwanstat"
   }]
 

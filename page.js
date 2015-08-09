@@ -45,7 +45,7 @@ var sites = {
       "title": "開放資料分析部落格",
       "desc": "利用資料做更深入的探討與分析報導，帶給大家最齊全的數據分析圖表與解析。",
       "cover": "/assets/images/cover.png",
-      "url": "http://taiwanstat.com/"
+      "url": "http://taiwanstat.com/opendata"
     }
   ]
 }
@@ -67,17 +67,17 @@ var posts = [{
     "title": "用數據看台灣首頁",
     "site": sites
   }
+},{
+  "layout": "./layouts/inner_homepage.html",
+  "filename": "./opendata/index.html",
+  "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js"],
+  "data": {
+    "title": "用數據看台灣 - 開放資料分析部落格",
+    "site": sites,
+    "posts": post_arr
+  }
 }]
 
-// ,{
-//   "layout": "./layouts/default.html",
-//   "filename": "./index.html",
-//   "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js"],
-//   "data": {
-//     "title": "用數據看台灣首頁",
-//     "site": sites,
-//     "posts": post_arr
-//   }
-// }
+
 
 module.exports = posts;

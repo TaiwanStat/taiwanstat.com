@@ -1,0 +1,14 @@
+.demo-card-square.mdl-card {
+  float: left;
+  margin: 10px;
+  width: 90%;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+}
+.mdl-card__title-text {
+  background-color: #000;
+  color: #FFF;
+  padding: 5px;
+}
