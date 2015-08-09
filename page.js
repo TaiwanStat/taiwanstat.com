@@ -9,7 +9,7 @@ lists.forEach(function(p) {
   var d = date_reg.exec(p.date)[1]
   post_arr.push({
     "item": p,
-    "full_path": path.join('./opendata/post/', d, p.url_name + '.html')
+    "full_path": path.join('/opendata/post/', d, p.url_name + '.html')
   })
 })
 

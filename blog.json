@@ -2,7 +2,7 @@
   "post_settings": {
     "layout": "./layouts/post.html",
     "path": "./opendata/post/",
-    "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js"],
+    "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js", "./partials/post_content.js"],
     "title": "用數據看台灣",
     "description": "生長在台灣的我們，很少從一個宏觀的角度看整個台灣的經濟、法律、交通、教育... ，而我們相信數據可以幫我們更了解我們身長在的這片土地上的一切。讓我們來用數據看台灣！",
     "email": "contact@taiwanstat.com",

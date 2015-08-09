@@ -1,0 +1,36 @@
+<div class="artical-content">
+  <div class="post-meta">
+    <img src="{{ site.author_image }}" width="40px">
+    <span class="post-author">{{ site.author }}</span>
+    <time datetime="{{ date }}">
+      <i class="fa fa-calendar"></i>
+        {{ date }}
+    </time>
+  </div>
+  <div class="md-content">
+    <a href="/opendata">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        回到部落格選單
+      </button>
+    </a>
+    <div data-markdown="{{content}}">
+    </div>
+    <a href="/opendata">
+      <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+        回到部落格選單
+      </button>
+    </a>
+
+    <div class="fb-plugin">
+      <div class="fb-like-box" data-href="https://www.facebook.com/Taiwanstat" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
+      <div class="fb-like" data-href="http://www.taiwanstat.com/{{full_url}}" data-width="300px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+    </div>
+    <div class="footer-container">
+      <footer class="site-footer">
+        <section class="copyright">內容版權所有 <a href="http://taiwanstat.com/">{{site.author}}</a> &copy; 2015 ，翻印必究。</section>
+      </footer>
+    </div>
+
+  </div>
+
+</div>
