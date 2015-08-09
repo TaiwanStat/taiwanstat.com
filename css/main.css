@@ -24,3 +24,7 @@ a {
 .mdl-mini-footer {
   padding: 20px 16px !important;
 }
+
+.mdl-layout__drawer-button i {
+  margin-top: 10px;
+}
