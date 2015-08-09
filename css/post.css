@@ -62,3 +62,10 @@ time {
 .md-content > button {
   margin: 5px;
 }
+
+/* mobile phone */
+@media all and (max-width: 500px) {
+  .md-content {
+    width: 95%;
+  }
+}
