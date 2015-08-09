@@ -3,6 +3,8 @@
   margin: 10px;
   width: 90%;
   height: 320px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .demo-card-square > .mdl-card__title {
   color: #fff;
@@ -11,4 +13,11 @@
   background-color: #000;
   color: #FFF;
   padding: 5px;
+}
+
+/* mobile phone */
+@media all and (max-width: 500px) {
+  .demo-card-square.mdl-card {
+    width: 100%;
+  }
 }
