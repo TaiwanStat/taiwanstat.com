@@ -64,12 +64,13 @@
 
 ![least-hour](/assets/article_images/2015-08-10/least-hour.png)
 
+
+每個行業的薪水各方面真的相差非常多，希望工時少、薪水高、時薪高，不如先挑個對的行業吧！
+
 ### 動手自己玩玩看吧！
 
 <iframe src = "http://long.taiwanstat.com/salary/" width = "800" height = "600" frameborder = "0"></iframe>
 
 <script>
-
 $("h4").css('color', 'red')
-
 </script>
