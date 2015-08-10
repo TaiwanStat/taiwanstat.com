@@ -18,10 +18,19 @@
     }
   },
   "posts": [{
+    "title": "台灣各行業人數最多、薪資最高、工時最長、時薪最高的行業",
+    "date": "2015/08/10 10:49:27",
+    "categories": ["經濟"],
+    "tags": ["薪水"],
+    "cover": "/assets/article_images/2015-08-10/wage-cover.png",
+    "content": "./posts/2015-08-10-tw-employment.md",
+    "url_name": "tw-employment",
+    "author": "taiwanstat"
+  }, {
     "title": "如何評估電力可靠度？解釋電力名詞與缺電現狀",
     "date": "2015/04/29 19:33:12",
-    "categories": ["electricity"],
-    "tags": ["power"],
+    "categories": ["能源"],
+    "tags": ["電力"],
     "cover": "/assets/article_images/2015-04-29/power.png",
     "content": "./posts/2015-04-29-description.md",
     "url_name": "electricity-desc",
@@ -29,8 +38,8 @@
   }, {
     "title": "為什麼九蛙疊像已經全露，日月潭水庫卻仍然維持著看似較高的有效蓄水量呢？",
     "date": "2015/04/02 21:34:38",
-    "categories": ["水庫"],
-    "tags": ["日月潭"],
+    "categories": ["能源"],
+    "tags": ["水庫"],
     "cover": "/assets/article_images/2015-04-02/日月潭日出.jpeg",
     "content": "./posts/2015-04-02-Zintun-reservoir.md",
     "url_name": "Zintun-reservoir",

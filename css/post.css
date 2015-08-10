@@ -50,6 +50,7 @@ time {
 }
 
 .md-content > p {
+  width: 100%;
   font-size: 1.5em;
   line-height: 1.5em;
 }
@@ -63,9 +64,20 @@ time {
   margin: 5px;
 }
 
+.md-content > p > img {
+  font-size: 1em;
+  width: 90% !important;
+}
+
 /* mobile phone */
 @media all and (max-width: 500px) {
   .md-content {
     width: 95%;
   }
+
+  .md-content > p > img {
+    font-size: 1em;
+    width: 100% !important;
+  }
 }
+
