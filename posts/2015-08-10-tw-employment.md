@@ -13,7 +13,7 @@
 
 ![top-hourly-wage](/assets/article_images/2015-08-10/top-hourly-wage.png)
 
-- 電信業: 101927 (No.1)
+- 電信業: 604.5 (No.1)
 - 港埠業: 570.6 (No.2)
 - 其他保險及退休基金輔助業: 564.8 (No.3)
 - 銀行業: 563.6 (No.4)
