@@ -2,7 +2,13 @@
   "post_settings": {
     "layout": "./layouts/post.html",
     "path": "./opendata/post/",
-    "partials": ["./partials/head.js", "./partials/footer.js", "./partials/header.js", "./partials/javascripts.js", "./partials/post_content.js"],
+    "partials": [
+      "./partials/head.js",
+      "./partials/footer.js",
+      "./partials/header.js",
+      "./partials/javascripts.js",
+      "./partials/post_content.js"
+    ],
     "title": "用數據看台灣",
     "description": "生長在台灣的我們，很少從一個宏觀的角度看整個台灣的經濟、法律、交通、教育... ，而我們相信數據可以幫我們更了解我們身長在的這片土地上的一切。讓我們來用數據看台灣！",
     "email": "contact@taiwanstat.com",
@@ -17,51 +23,76 @@
       "desc": "追蹤 Facebook 粉絲專業"
     }
   },
-  "posts": [{
-    "title": "台灣及世界各國在中國投資金額及年增率",
-    "date": "2015/08/11 11:10:27",
-    "categories": ["經濟"],
-    "tags": ["中國"],
-    "cover": "/assets/article_images/2015-08-11/cover.png",
-    "content": "./posts/2015-08-11-cn-invest.md",
-    "url_name": "cn-invest",
-    "author": "taiwanstat"
-  }, {
-    "title": "台灣各行業人數最多、薪資最高、工時最長、時薪最高的行業是什麼呢？",
-    "date": "2015/08/10 10:49:27",
-    "categories": ["經濟"],
-    "tags": ["薪水"],
-    "cover": "/assets/article_images/2015-08-10/wage-cover.png",
-    "content": "./posts/2015-08-10-tw-employment.md",
-    "url_name": "tw-employment",
-    "author": "taiwanstat"
-  }, {
-    "title": "如何評估電力可靠度？解釋電力名詞與缺電現狀",
-    "date": "2015/04/29 19:33:12",
-    "categories": ["能源"],
-    "tags": ["電力"],
-    "cover": "/assets/article_images/2015-04-29/power.png",
-    "content": "./posts/2015-04-29-description.md",
-    "url_name": "electricity-desc",
-    "author": "taiwanstat"
-  }, {
-    "title": "為什麼九蛙疊像已經全露，日月潭水庫卻仍然維持著看似較高的有效蓄水量呢？",
-    "date": "2015/04/02 21:34:38",
-    "categories": ["能源"],
-    "tags": ["水庫"],
-    "cover": "/assets/article_images/2015-04-02/日月潭日出.jpeg",
-    "content": "./posts/2015-04-02-Zintun-reservoir.md",
-    "url_name": "Zintun-reservoir",
-    "author": "taiwanstat"
-  }, {
-    "title": "用數據看台灣 官網正式上線。",
-    "date": "2015/04/02 22:33:12",
-    "categories": ["Facebook"],
-    "tags": ["milestone"],
-    "cover": "/assets/images/taiwanstat_cover.png",
-    "content": "./posts/2015-04-02-10000.md",
-    "url_name": "10000",
-    "author": "taiwanstat"
-  }]
-
+  "posts": [
+    {
+      "title": "台灣及世界各國在中國投資金額及年增率",
+      "date": "2015/08/11 11:10:27",
+      "categories": [
+        "經濟"
+      ],
+      "tags": [
+        "中國"
+      ],
+      "cover": "/assets/article_images/2015-08-11/cover.png",
+      "content": "./posts/2015-08-11-cn-invest.md",
+      "url_name": "cn-invest",
+      "author": "taiwanstat"
+    },
+    {
+      "title": "台灣各行業人數最多、薪資最高、工時最長、時薪最高的行業是什麼呢？",
+      "date": "2015/08/10 10:49:27",
+      "categories": [
+        "經濟"
+      ],
+      "tags": [
+        "薪水"
+      ],
+      "cover": "/assets/article_images/2015-08-10/wage-cover.png",
+      "content": "./posts/2015-08-10-tw-employment.md",
+      "url_name": "tw-employment",
+      "author": "taiwanstat"
+    },
+    {
+      "title": "如何評估電力可靠度？解釋電力名詞與缺電現狀",
+      "date": "2015/04/29 19:33:12",
+      "categories": [
+        "能源"
+      ],
+      "tags": [
+        "電力"
+      ],
+      "cover": "/assets/article_images/2015-04-29/power.png",
+      "content": "./posts/2015-04-29-description.md",
+      "url_name": "electricity-desc",
+      "author": "taiwanstat"
+    },
+    {
+      "title": "為什麼九蛙疊像已經全露，日月潭水庫卻仍然維持著看似較高的有效蓄水量呢？",
+      "date": "2015/04/02 21:34:38",
+      "categories": [
+        "能源"
+      ],
+      "tags": [
+        "水庫"
+      ],
+      "cover": "/assets/article_images/2015-04-02/日月潭日出.jpeg",
+      "content": "./posts/2015-04-02-Zintun-reservoir.md",
+      "url_name": "Zintun-reservoir",
+      "author": "taiwanstat"
+    },
+    {
+      "title": "用數據看台灣 官網正式上線。",
+      "date": "2015/04/02 22:33:12",
+      "categories": [
+        "Facebook"
+      ],
+      "tags": [
+        "里程碑"
+      ],
+      "cover": "/assets/images/taiwanstat_cover.png",
+      "content": "./posts/2015-04-02-10000.md",
+      "url_name": "10000",
+      "author": "taiwanstat"
+    }
+  ]
 }
