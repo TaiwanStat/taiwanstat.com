@@ -18,6 +18,15 @@
     }
   },
   "posts": [{
+    "title": "台灣及世界各國在中國投資金額及年增率",
+    "date": "2015/08/11 11:10:27",
+    "categories": ["經濟"],
+    "tags": ["中國"],
+    "cover": "/assets/article_images/2015-08-11/cover.png",
+    "content": "./posts/2015-08-11-cn-invest.md",
+    "url_name": "cn-invest",
+    "author": "taiwanstat"
+  }, {
     "title": "台灣各行業人數最多、薪資最高、工時最長、時薪最高的行業是什麼呢？",
     "date": "2015/08/10 10:49:27",
     "categories": ["經濟"],
