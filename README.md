@@ -12,26 +12,19 @@ And the theme is used to use in [Taiwanstat Official Site](http://taiwanstat.com
 - node
 - npm
 
-Install `genghis`, `canner-core`
+Install `twstat-blog`
 
 ```
-$ sudo npm install -g genghis
-$ sudo npm install -g canner-core
+$ sudo npm install -g twstat-blog 
 ```
 
-run build blog
+run build blog (**you have be in the root of this folder**)
 
 ```
-genghis blog.json [-w option for watch changes]
+twstatblog ./ 
 ```
 
-build pages
-
-```
-canner-core build page.js
-```
-
-[More Genghis Information](https://github.com/Genghis-canner/genghis)
+[More Genghis Information](https://github.com/TaiwanStat/twstat-blog-cli)
 
 ## License 
 
