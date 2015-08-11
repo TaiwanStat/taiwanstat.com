@@ -24,7 +24,7 @@ run build blog (**you have be in the root of this folder**)
 twstatblog ./ 
 ```
 
-[More Genghis Information](https://github.com/TaiwanStat/twstat-blog-cli)
+[More Blog Cli tool Information](https://github.com/TaiwanStat/twstat-blog-cli)
 
 ## License 
 
