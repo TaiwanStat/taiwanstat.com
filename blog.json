@@ -25,6 +25,20 @@
   },
   "posts": [
     {
+      "title": "全球暖化到底和颱風生成有什麼關係？",
+      "date": "2015/08/13 10:38:30",
+      "categories": [
+        "環境"
+      ],
+      "tags": [
+        "颱風"
+      ],
+      "cover": "/assets/article_images/2015-08-13/typhoon-intensity-cover.png",
+      "content": "./posts/2015-08-13-typhoon-intensity.md",
+      "url_name": "typhoon-intensity",
+      "author": "taiwanstat"
+    },
+    {
       "title": "台灣及世界各國在中國投資金額及年增率",
       "date": "2015/08/11 11:10:27",
       "categories": [
