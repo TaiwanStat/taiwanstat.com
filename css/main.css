@@ -28,3 +28,10 @@ a {
 .mdl-layout__drawer-button i {
   margin-top: 10px;
 }
+footer {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+}
+
+

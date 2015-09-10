@@ -41,3 +41,10 @@
   color: #FFF;
   padding: 5px;
 }
+footer {
+  position:absolute;
+  bottom:0;
+  width: 100%;
+}
+
+
