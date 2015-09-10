@@ -12,14 +12,14 @@
 
 	var str = '<header class="mdl-layout__header">';
   str += '<div class="mdl-layout__header-row">';
-  str += '<span class="mdl-layout-title"><a href="http://real.taiwanstat.com/" style="color: #FFF"><img src="/images/assert/round-logo.png" id="round-logo"/>用數據看台灣</a></span>';
+  str += '<span class="mdl-layout-title"><a href="http://real.taiwanstat.com/" style="color: #FFF"><img src="/assets/images/round-logo.png" id="round-logo"/>用數據看台灣</a></span>';
   str += '<div class="mdl-layout-spacer"></div>';
   str += '<nav class="mdl-navigation mdl-layout--large-screen-only">';
   str += links;
   str += '</nav>';
   str += '</div></header>';
   str += '<div class="mdl-layout__drawer">';
-  str += '<span class="mdl-layout-title"><a href="http://real.taiwanstat.com/"><img src="/images/assert/round-logo.png" id="round-logo"/>用數據看台灣</a></span>';
+  str += '<span class="mdl-layout-title"><a href="http://real.taiwanstat.com/"><img src="/assets/images/round-logo.png" id="round-logo"/>用數據看台灣</a></span>';
   str += '<nav class="mdl-navigation">';
   str += links;
   str += '</div>';
