@@ -18,9 +18,6 @@ a {
 
 
 /** customize mdl **/
-.mdl-layout__header {
-  background-color: #029B6C !important;
-}
 .mdl-mini-footer {
   padding: 20px 16px !important;
 }

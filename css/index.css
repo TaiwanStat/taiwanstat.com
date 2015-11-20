@@ -1,3 +1,6 @@
+body #main-content {
+  margin-top: -80px;
+}
 .wrapper {
   width: 90%;
   margin: auto;
