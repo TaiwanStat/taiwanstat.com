@@ -10,19 +10,15 @@
     <div class="fb-plugin">
       <div class="fb-like-box" data-href="https://www.facebook.com/Taiwanstat" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="false" data-show-border="false"></div>
     </div>
-
+    <div class="wrapper">
     {{#each site.pages}}
-    <a href="{{url}}">
-      <div class="mdl-card mdl-shadow--2dp demo-card-wide">
-        <div class="mdl-card__title" style="background: url('{{cover}}') center / cover">
-          <h2 class="mdl-card__title-text">{{title}}</h2>
-        </div>
+    <a href="{{url}}"><h2 class="mdl-card__title-text">{{title}}</h2>
         <div class="mdl-card__supporting-text">
           {{desc}}
         </div>
-      </div>
     </a>
     {{/each}}
+    </div>
 
     <div class="fb-plugin">
       <div class="fb-like" data-href="http://www.taiwanstat.com/" data-width="300px" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>

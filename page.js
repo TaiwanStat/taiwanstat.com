@@ -30,6 +30,11 @@ var sites = {
   },
   "pages": [
     {
+      "title": "關於我們",
+      "desc": "起源、團隊介紹",
+      "url": "http://taiwanstat-about-us.cannerapp.com/"
+    },
+    {
       "title": "台灣即時資訊系統",
       "desc": "用最完整的圖表呈現，目前台灣的各種動態，包含天氣、水庫、犯罪等資訊。讓大家能夠知道我們現在台灣到底正在發生什麼事情。",
       "cover": "/assets/images/real_cover.png",

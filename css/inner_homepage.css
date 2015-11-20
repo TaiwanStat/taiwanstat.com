@@ -1,7 +1,10 @@
+h2 {
+  text-align: center;
+  margin: 20px;
+}
 .demo-card-square.mdl-card {
-  float: left;
   margin: 10px;
-  width: 90%;
+  width: 60%;
   height: 320px;
   margin-right: auto;
   margin-left: auto;
