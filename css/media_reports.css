@@ -1,0 +1,9 @@
+.link {
+  color: black;
+}
+.link:hover {
+  color: rgb(255,134,10);
+}
+.title{
+  color: rgb(255,134,10);
+}
