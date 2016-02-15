@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>幸福的定義 || 用數據看台灣</title>
+
+    <meta name="description" content="The happiness">
+    <meta name="author" content="Meng-tse Hang">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <meta name="viewport" content="width= device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+    <!-- Jquery -->
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+
+    <link rel="stylesheet" href="reveal.js-3.2.0/css/reveal.css">
+    <link rel="stylesheet" href="reveal.js-3.2.0/css/theme/beige.css" id="theme">
+
+    <link rel="stylesheet" href="test.css" type="text/css" />
+    <!-- Code syntax highlighting -->
+    <link rel="stylesheet" href="reveal.js-3.2.0/lib/css/zenburn.css">
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Dancing+Script:400,700);
+    </style>
+
+    <!-- amCharts -->
+    <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+    <script src="https://www.amcharts.com/lib/3/serial.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/light.js"></script>
+    <script src="https://www.amcharts.com/lib/3/themes/chalk.js"></script>
+
+
+
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    </script>
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Orbitron:500,400);
+    </style>
+
+
+  </head>
+  <body>
+  <!-- 使用 reveal 與 slides 的 div 將整個簡報包起來 -->
+  <div class="reveal" >
+    <div id = "box-top"></div>
+    <div id = "box-bottom"></div>
+    <div id = "back_intro"></div>
+    <div class="slides" >
+      <!-- 簡報內容開始 -->
+      <section data-background = "pic/wrap.jpg" >
+        <div id = "back_">
+          <p id = "p0"> 幸福的定義 ？</p>
+          <p id = "p0_2"><em>La définition du bonheur ？</em></p>
+          <p id = "p0_down"> 使用方法:&nbsp;&nbsp;左右鍵控制頁面閱讀,&nbsp;所有圖表皆可拖拉點擊取得更為詳細資訊！ </p>
+          <p id = "p0_amcharts"> <a href = "https://www.amcharts.com/javascript-charts/" target = "_new">Powerby &nbsp;AMCHARTS</a></p>
+        </div>
+      </section>
+
+      <section data-background = "pic/0.jpg" >
+        <p id = "intro_1" >< 序 ></p>
+        <p id = "intro_2">如果我擁有很多很多的錢...<br>如果我可以活的很久很久...</p>
+        <p id = "p_intro">如果說一個人擁有數不盡的財富，還有無限的時間可以做任何想做的事<span id = "intro_high"><br>應該是世界上最幸福的人了吧？</span></p>
+      </section>
+
+      <section data-background = "pic/1.jpg" >
+        <p id = "intro_1" >幸福指數</p>
+        <p id = "intro_2">聯合國每年都會釋出一份全球幸福報告書<br>評估包括經濟狀況，社會支援，健康壽命<br>是否可自由做人生選擇等多項數據評分出各國的幸福指數</p>
+        <p id = "p_intro">每個人都有屬於自己幸福的樣貌，但到底該怎樣衡量呢？<span id = "intro_high"></span></p>
+      </section>
+
+      <section data-background = "pic/2.jpg">
+        <div id="chart_happy"></div>
+        <p id = "chart1_p"> *資料來源:&nbsp;&nbsp;2013全球幸福報告書(為隨機取19名國家進行比較) <span id = "chart1_p2" > -- 滑鼠移動圖表可取得更詳細資訊</span></p> 
+      </section>
+
+      <section data-background = "pic/3.jpeg">
+        <div id = "back_4">
+          <p id = "p4">財富？</p>
+          <p id = "p4_2"> 商人說:「我有數不盡的財富，五億零一百六十二萬兩千七百三十一...」
+        </div>
+      </section>
+
+      <section data-background = "pic/3.jpeg">
+        <p id = "p5">「我相信，當我擁有越多錢，我的幸福指數就會越高...」</p>
+      </section>
+
+      <section data-background = "pic/3.jpeg">
+        <div id="chart_gdp"></div>
+        <p id = "chart_gdp_p"> ＊滑鼠拖移拉取圖表範圍，可更詳細比較</p>
+      </section>
+
+      <section data-background = "pic/4.jpg">
+        <p id = "p7">如果說誰賺的錢越多就越幸福...那為什麼<span class = "q_highlight"><br>挪威與瑞士的GDP卻遠高於丹麥呢？</span></p>
+        <p id = "p7_2"> 「哀，大人的世界真奇怪...」</p>
+      </section>
+
+      <section data-background = "pic/5.jpeg">
+        <div id = "back_8">
+          <p id = "p8">生命？</p>
+          <p id = "p8_2"> 國王說:「八千年來，我統治一切，即便我的星球上只剩我一人...」
+        </div>
+      </section>
+
+      <section data-background = "pic/5.jpeg">
+        <div id = "back_9">
+          <p id = "p9"> 「我相信，當我活得越久，我可以再統治更多人，我還可以做很多事...」
+        </div>
+      </section>
+
+      <section data-background = "pic/5.jpeg">
+        <div id="chart_life"></div>
+        <p id = "chart_life_p"> ＊滑鼠拖移拉取圖表範圍，可更詳細比較</p>
+      </section>
+
+      <section data-background = "pic/6.jpg">
+        <p id = "p11">如果說活的越久可以做更多事，就越開心...那為什麼<span class = "q_highlight"><br>日本的預期壽命卻遠高於其他各國？</span></p>
+        <p id = "p11_2"> 「大人真的都好奇怪阿...」</p>
+      </section>
+
+      <section data-background = "pic/7.jpg">
+      <div id = "chart_suicide"></div>
+      <p id = "chart_suicide_p"> ＊滑鼠拖移拉取圖表範圍，可更詳細比較</p>
+      </section>
+
+      <section data-background = "pic/8.jpg">
+        <p id = "p13">秘密</p>
+        <p id = "p13_2">「大人都喜歡<span style = "font-size:1.6em;color:rgba(244,247,180,1);">數字</span>，</p>
+        <p id = "p13_sub"> 他們用數字衡量一切...」</p>
+      </section>
+
+      <section data-background = "pic/9.jpg">
+        <p id = "p14"> 狐狸說:「如果你告訴大人看到一幢漂亮的粉色磚頭蓋的房屋，旁邊有天竺葵，屋頂上還有鴿子...」</p>
+        <p id = "p14_sub"> 他們無法想像這是怎麼樣的一幢房子</p>
+      </section>
+
+      <section data-background = "pic/9.jpg">
+        <p id = "p14"> 可是你說:「我看到一幢價值十億元的房子。」</p>
+        <p id = "p15_sub"> 然後他們會驚訝地說:「多漂亮的房子！」</p>
+      </section>
+
+      <section data-background = "pic/9.jpg">
+        <p id = "p16"> 不管是幸福指數，財富多寡，生命長短，任何數字判斷...</p>
+        <p id = "p16_2"> <span id = "p16_highlight">數字</span>早已<span id = "p16_highlight">蒙蔽</span>大人的眼睛 </p>
+      </section>
+
+      <section data-background = "pic/sun.jpg">
+        <p id = "p17"> 「一個人只有用心去看, 才能看得見一切。」</p>
+        <p id = "p17_2"> <em>“Une personne seulement avec le cœur de voir , de tout voir . ”.</em></p>
+      </section>
+
+      <section data-background = "pic/dark.jpg">
+        <p id = "p18"> 「因為，真正重要的東西，只用肉眼是看不見的。」</p>
+        <p id = "p18_2"> <em>“Parce que , des trucs vraiment important , que les yeux ne peuvent pas voir .”.</em></p>
+      </section>
+
+      <section data-background = "pic/rose.jpg">
+        <p id = "p19"> 「幸福沒有真正定義的標準」<br>只要用心去觀察，每一件事都可能變成幸福<span id = "p19_2"><br>「你說是吧。玫瑰，我的幸福。」</span></p>
+      </section>
+
+      <section data-background = "pic/friend.jpg">
+        <p id = "p20"> 謝謝你！狐狸, 我的朋友 ！ </p>
+        <p id = "p20_2"> <em>Merci ! Mon ami !</em> </p>
+      </section>
+
+      <section data-background = "pic/end.jpg">
+        <p id = "p21"> END </p>
+        <p id = "p21_2"> <a href = "http://tsehang.github.io/Meng-Tse-Hang/" target = "_new">Author &nbsp;&nbsp;MengTse-Hang </a></p>
+        <p id = "p21_sub"> 圖片版權屬於 <小王子電影版&nbsp;&nbsp;劇照><br>資料年份: 2013年 , 資料來源:  聯合國 , 世界銀行 統計資料</p>
+      </section>
+
+      <!-- 
+      <section data-background = "pic/213.jpg" >
+          <p id = "intro_1" >< 序 ></p>
+          <p id = "intro_2">人們擁有星星的方式不盡相同</p>
+          <p id = "p_intro"><br>對旅人而言，星星可以指引方向<br>對學者來說，星星是待解的課題<br>對某位商人來看，星星就像金子一樣<br>對很多很多人，星星只是發亮的小光點而已<br><br><span id = "intro_high">而你，有沒有別人所沒有的星星？</span></p>
+      </section>
+      -->
+  
+      <!-- 簡報內容結束 -->
+
+    </div>
+  </div>
+
+  <script src="reveal.js-3.2.0/lib/js/head.min.js"></script>
+  <script src="reveal.js-3.2.0/js/reveal.js"></script>
+
+  <script type="text/javascript" src="test.js"></script>
+
+
+  </body>
+
+</html>
