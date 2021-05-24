@@ -141,7 +141,7 @@
 
 ### 動手自己玩玩看吧！
 
-<iframe src = "http://long.taiwanstat.com/salary/" width = "100%" height = "600" frameborder = "0"></iframe>
+<iframe src ="https://www.taiwanstat.com/statistics/salary/" width = "100%" height = "600" frameborder = "0"></iframe>
 
 <script>
 $("h4").css('color', 'red')

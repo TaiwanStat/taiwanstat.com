@@ -9,7 +9,10 @@ lists.forEach(function(p) {
   var d = date_reg.exec(p.date)[1]
   post_arr.push({
     "item": p,
-    "full_path": path.join('/opendata/post/', d, p.url_name + '.html')
+		sites: {
+			"baseurl": "https://taiwanstat.com/blog"
+		},
+    "full_path": path.join('/blog/opendata/post/', d, p.url_name + '.html')
   })
 })
 
@@ -24,6 +27,7 @@ var sites = {
   "author": "用數據看台灣團隊",
   "author_image": "/assets/images/taiwanstat_thumb.png",
   "url": "http://taiwanstat.com",
+  "baseurl": "https://taiwanstat.com/blog",
   "facebook": {
     "url": "https://facebook.com/taiwanstat",
     "desc": "追蹤 Facebook 粉絲專業"

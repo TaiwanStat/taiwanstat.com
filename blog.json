@@ -12,11 +12,11 @@
     "title": "用數據看台灣",
     "description": "生長在台灣的我們，很少從一個宏觀的角度看整個台灣的經濟、法律、交通、教育... ，而我們相信數據可以幫我們更了解我們身長在的這片土地上的一切。讓我們來用數據看台灣！",
     "email": "contact@taiwanstat.com",
-    "logo": "/assets/images/taiwanstat_thumb.png",
-    "cover": "/assets/images/taiwanstat_cover1.png",
+    "logo": "https://static.taiwanstat.com/images/taiwanstat_thumb.png",
+    "cover": "https://static.taiwanstat.com/images/taiwanstat_cover1.png",
     "name": "用數據看台灣團隊",
     "author": "用數據看台灣團隊",
-    "author_image": "/assets/images/taiwanstat_thumb.png",
+    "author_image": "https://static.taiwanstat.com/images/taiwanstat_thumb.png",
     "url": "http://taiwanstat.com",
     "facebook": {
       "url": "https://facebook.com/taiwanstat",
@@ -33,7 +33,7 @@
       "tags": [
         "颱風"
       ],
-      "cover": "/assets/article_images/2015-08-13/typhoon-intensity-cover.png",
+      "cover": "https://static.taiwanstat.com/article_images/2015-08-13/typhoon-intensity-cover.png",
       "content": "./posts/2015-08-13-typhoon-intensity.md",
       "url_name": "typhoon-intensity",
       "author": "taiwanstat"
@@ -47,7 +47,7 @@
       "tags": [
         "中國"
       ],
-      "cover": "/assets/article_images/2015-08-11/cover.png",
+      "cover": "https://static.taiwanstat.com/article_images/2015-08-11/cover.png",
       "content": "./posts/2015-08-11-cn-invest.md",
       "url_name": "cn-invest",
       "author": "taiwanstat"
@@ -61,7 +61,7 @@
       "tags": [
         "薪水"
       ],
-      "cover": "/assets/article_images/2015-08-10/wage-cover.png",
+      "cover": "https://static.taiwanstat.com/article_images/2015-08-10/wage-cover.png",
       "content": "./posts/2015-08-10-tw-employment.md",
       "url_name": "tw-employment",
       "author": "taiwanstat"
@@ -75,7 +75,7 @@
       "tags": [
         "電力"
       ],
-      "cover": "/assets/article_images/2015-04-29/power.png",
+      "cover": "https://static.taiwanstat.com/article_images/2015-04-29/power.png",
       "content": "./posts/2015-04-29-description.md",
       "url_name": "electricity-desc",
       "author": "taiwanstat"
@@ -89,7 +89,7 @@
       "tags": [
         "水庫"
       ],
-      "cover": "/assets/article_images/2015-04-02/日月潭日出.jpeg",
+      "cover": "https://static.taiwanstat.com/article_images/2015-04-02/日月潭日出.jpeg",
       "content": "./posts/2015-04-02-Zintun-reservoir.md",
       "url_name": "Zintun-reservoir",
       "author": "taiwanstat"
@@ -103,7 +103,7 @@
       "tags": [
         "里程碑"
       ],
-      "cover": "/assets/images/taiwanstat_cover.png",
+      "cover": "https://static.taiwanstat.com/images/taiwanstat_cover.png",
       "content": "./posts/2015-04-02-10000.md",
       "url_name": "10000",
       "author": "taiwanstat"
